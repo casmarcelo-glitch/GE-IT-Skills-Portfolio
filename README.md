@@ -90,3 +90,59 @@ Logistics efficiency metrics should incorporate:
 Travel time variability (not averages only)
 Weather disruption sensitivity
 Last-mile connectivity constraints
+
+# AI for Research & Data Analysis (Visual Reports)
+### Data Analytics & Visual Report (Mindanao Regional Development Council)
+#### Dataset Focus: SOCCSKSARGEN Municipal Solid Waste Generation & Energy Recovery Potential (Mock CSV Analysis)
+
+#### 1. Data Cleaning Protocol Log
+Raw Input Problem:
+The original CSV contained inconsistent waste measurement units (kg, metric tons, and “truckloads”), duplicate municipal entries (especially for General Santos City and Koronadal), and several missing values for 2024 mid-year reporting.
+AI Cleaning Instruction:
+Standardize all waste values into Metric Tons (MT)
+Remove duplicate municipality-month entries (retain averaged values per reporting period)
+Impute missing values using rolling 3-month municipal mean
+Normalize inconsistent labels (e.g., “GenSan”, “GSC” → “General Santos City”)
+Flag outliers above 2.5 standard deviations for validation review
+Result:
+96.4% data completeness achieved after cleaning
+8 duplicate municipal clusters merged
+14 extreme outlier entries flagged (mostly post-festival waste spikes)
+
+#### 2. Visualizations Generated
+
+##### Chart 1: Municipal Solid Waste Generation (Annual Total, 2023–2025)
+High-Contrast Bar Graph (Metric Tons)
+
+General Santos City     | ██████████████████████  182,400 MT
+Koronadal City          | ████████████           96,700 MT
+Sarangani Municipalities| ████████               61,200 MT
+South Cotabato Rural LGUs| █████████             74,500 MT
+Sultan Kudarat LGUs     | ██████████             88,300 MT
+
+##### Chart 2: Waste-to-Energy Recovery Efficiency Trend (2023–2025)
+Recovery Rate (% of total waste processed)
+
+2023 | ████████               18%
+2024 | █████████████          29%
+2025 | ██████████████████     41%
+
+##### Graph Image
+<img width="1500" height="1500" alt="bar graph" src="https://github.com/user-attachments/assets/b97e3050-9fb6-4e24-a7a1-4d634e550b3e" />
+
+#### 3. Human Analytical Narrative (The “Why” Factor)
+The dataset reveals a steadily increasing solid waste burden across SOCCSKSARGEN, with General Santos City accounting for nearly one-third of total regional waste output. While automated interpretation might frame this purely as urban population pressure, deeper contextual reading points to a more complex driver: rapid expansion of commercial food distribution networks and post-harvest packaging waste from agri-export activities.
+
+The most critical signal is not the rise in waste generation itself, but the parallel improvement in waste-to-energy recovery efficiency—from 18% in 2023 to 41% in 2025. This indicates that infrastructure investments in anaerobic digestion and material recovery facilities are beginning to scale effectively, particularly in Koronadal and surrounding LGUs.
+
+However, the gap between waste production and recovery remains significant. If current trends continue without acceleration of processing capacity, landfill dependency in General Santos City is projected to exceed safe thresholds by late 2027.
+
+Policy Implication for LGUs:
+Prioritize expansion of Material Recovery Facilities (MRFs) in high-growth barangays
+Incentivize private sector participation in waste-to-energy conversion systems
+Strengthen segregation compliance enforcement at household and market levels
+Align waste management strategy with regional climate adaptation funding under NEDA frameworks
+
+
+
+
