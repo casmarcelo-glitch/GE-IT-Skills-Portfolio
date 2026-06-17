@@ -110,23 +110,6 @@ Result:
 14 extreme outlier entries flagged (mostly post-festival waste spikes)
 
 #### 2. Visualizations Generated
-
-##### Chart 1: Municipal Solid Waste Generation (Annual Total, 2023–2025)
-High-Contrast Bar Graph (Metric Tons)
-
-General Santos City     | ██████████████████████  182,400 MT
-Koronadal City          | ████████████           96,700 MT
-Sarangani Municipalities| ████████               61,200 MT
-South Cotabato Rural LGUs| █████████             74,500 MT
-Sultan Kudarat LGUs     | ██████████             88,300 MT
-
-##### Chart 2: Waste-to-Energy Recovery Efficiency Trend (2023–2025)
-Recovery Rate (% of total waste processed)
-
-2023 | ████████               18%
-2024 | █████████████          29%
-2025 | ██████████████████     41%
-
 ##### Graph Image
 <img width="1500" height="1500" alt="bar graph" src="https://github.com/user-attachments/assets/b97e3050-9fb6-4e24-a7a1-4d634e550b3e" />
 
