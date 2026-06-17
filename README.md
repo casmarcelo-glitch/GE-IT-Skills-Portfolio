@@ -12,6 +12,8 @@
 ## About Me
 ### I am a GE-IT student with an interest in Human Resource Management and digital design. My goal is to contribute innovative and people-centered solutions within the Armed Forces of the Philippines. Through this portfolio, I showcase my branding, visual communication, and multimedia projects.
 
+
+
 # Prompt Engineering (Text & Image Generation)
 
 ### The Davao Agro-Logistics Prompt System (Mindanao LGU AI Framework)
